@@ -62,6 +62,8 @@ Install dependencies:
 pip install torch torchvision tensorboard
 ```
 
+---
+
 ## 🧠 Model
 
 This project implements custom ResNet variants, including:
@@ -73,6 +75,8 @@ Alternative models in my_othermodel.py
 The architecture diagram:
 ![ResNet Architecture](resnet_custom_structure.png)
 
+---
+
 ## 🏋️ Training
 
 Run training with:
@@ -80,6 +84,8 @@ Run training with:
 ```bash
 python main.py
 ```
+
+---
 
 ## 📈 TensorBoard Visualization
 
@@ -95,6 +101,8 @@ You can monitor:
 - Validation loss
 - Validation accuracy
 
+---
+
 ## 📌 Training Pipeline
 - Load CIFAR-10 dataset
 - Apply normalization + augmentation
@@ -104,11 +112,16 @@ You can monitor:
 - Evaluate on test set
 - Save model
 
+---
+
 ## 💾 Model Saving
 
 Model is saved as:
-
+```
 cifar-10-1.pth
+```
+
+---
 
 ## 📌 Notes
 - Do NOT upload large dataset files (data/)
